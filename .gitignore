@@ -1,0 +1,6 @@
+# Blocca il file di configurazione contenente le chiavi private
+src/info_segugio/config.py
+
+# Blocca anche tutta la cache di Python (importantissimo per evitare l'errore di prima)
+**/__pycache__/
+*.pyc
